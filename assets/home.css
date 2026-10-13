@@ -1,5 +1,5 @@
 /* Homepage composition based on the owner's compact two-page reference. */
-.reference-home .wrap{width:min(calc(100% - 64px),1220px)}
+.reference-home .wrap{width:min(calc(100% - 64px),1400px)}
 .reference-home .site-header{background:#fcf9f3;border:0}
 .reference-home .header-inner{height:75px;grid-template-columns:150px 1fr auto}
 .reference-home .brand-wordmark{width:auto;font-family:Georgia,'Times New Roman',serif;font-size:1.85rem;line-height:.91;letter-spacing:-.075em}
