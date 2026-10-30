@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <pattern id="cardboard" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M1 0v12M7 0v12" stroke="#8d7151" stroke-width=".6" opacity=".17"/></pattern>
+    <pattern id="paper-grain" width="38" height="32" patternUnits="userSpaceOnUse"><path d="m4 9 9-1m9 14 8 1M6 28l3-1m17-23 5 1" stroke="#6d665a" stroke-width=".6" opacity=".12"/></pattern>
+  </defs>
+  <symbol id="scribble" viewBox="0 0 140 70"><path d="M5 47c21-30 21 22 43-5S69 19 73 45s20-24 29-19 3 24 33-11" fill="none" stroke="#e47d35" stroke-width="4" stroke-linecap="round"/></symbol>
+  <symbol id="pine" viewBox="0 0 100 180"><g stroke="#506458" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M47 172 51 9 18 59l19-2L9 99l25-3-29 45 39-4-1 35Z" fill="#63816d"/><path d="M51 9 80 61 65 58l27 43-24-3 27 43-40-4 2 35H43" fill="#496c5d"/><path d="m51 34-2 129m1-99L34 54m16 44L28 83m22 39-27-13m27-20 16-15m-16 43 25-16" fill="none" stroke="#304e43"/></g></symbol>
+  <symbol id="sun" viewBox="0 0 160 160"><g stroke="#e5a13b" stroke-width="5" stroke-linecap="round"><path d="m80 8-1 24m0 98-1 24M8 80l24 2m98-3 24-2M26 26l17 17m75 74 17 18M133 25l-17 20M43 116l-17 18"/><path d="M109 81c2 38-60 40-60 1-1-41 61-42 60-1Z" fill="#eeb858" stroke-width="2"/><path d="m69 72 2-1m22 2 2-1m-24 20c5 4 11 5 17 0" fill="none" stroke="#bc873e" stroke-width="2"/></g></symbol>
+  <symbol id="town" viewBox="0 0 680 420">
+    <g stroke-linecap="round" stroke-linejoin="round">
+      <use href="#sun" x="12" y="8" width="150" height="150"/>
+      <use href="#pine" x="310" y="1" width="112" height="250"/>
+      <path d="m92 363 39-107 69-8 56 119-65 31Z" fill="#e5c7a3" stroke="#ad9273" stroke-width="1.5"/>
+      <path d="m198 250 31 118-37 30m-61-142 59 141" fill="none" stroke="#ba9b75" stroke-width="1.5"/>
+      <g stroke="#9a7d5b" stroke-width="1.8">
+        <path d="m178 156 92-103 76 104v179l-170 2Z" fill="#dfb85c"/>
+        <path d="m163 158 105-111 88 112-88-10Z" fill="#e5ab46"/>
+        <path d="m176 169 91-13v181l-91 1Z" fill="url(#cardboard)"/>
+        <path d="m270 53-3 284m-91-168 168-10" fill="none" stroke="#bd903e"/>
+        <path d="m209 191 20-2v31l-20 1Zm33-5 18-1v32l-18 1Z" fill="#454c44"/>
+        <path d="m252 96 17-2v23l-17 1Zm26-2 16 2v23l-16-1Z" fill="#454c44"/>
+        <path d="M296 243h26v94h-26Z" fill="#bd8e56"/>
+      </g>
+      <g stroke="#9d8579" stroke-width="1.7">
+        <path d="m354 133 76-109 84 107v203H350Z" fill="#d6ad98"/>
+        <path d="m345 137 85-121 91 121-90-16Z" fill="#e0bda5"/>
+        <path d="m430 25 1 305m-75-168 151-4" fill="none" stroke="#b99984"/>
+        <path d="m377 174 23 1v29l-23-1Zm34 1h22v29h-22Z" fill="#faf0d6"/>
+        <path d="m455 191 20-1v32l-20 1Z" fill="#595953"/>
+        <path d="m463 78 15 1v21l-15-1Z" fill="#f8edda"/>
+      </g>
+      <g stroke="#777e78" stroke-width="1.7">
+        <path d="m262 222 59-93 65 88v145H260Z" fill="#b0c1bd"/>
+        <path d="m250 225 71-106 76 104-78-14Z" fill="#bfab8c"/>
+        <path d="m319 131-1 230" fill="none"/>
+        <path d="M281 236h21v31h-21Zm37 0h20v31h-20Z" fill="#f4ebd7"/>
+        <path d="M338 304h22v57h-22Z" fill="#5d6a65"/>
+      </g>
+      <use href="#pine" x="486" y="112" width="89" height="228"/>
+      <path d="m365 361 93-164 122 163-108 25Z" fill="#e6ae53" stroke="#a77539" stroke-width="2"/>
+      <path d="m458 197 14 188 108-25Z" fill="#e3a348" stroke="#b37d3d" stroke-width="1.5"/>
+      <path d="m458 197-93 164 82-22Z" fill="#efbb67" stroke="#b37d3d" stroke-width="1.5"/>
+      <path d="m435 356 23-73 22 88Z" fill="#705944" stroke="#805d3d" stroke-width="2"/>
+      <path d="m458 204-15 144m29 29 70-19m-152 0 51-17M365 361l-23 10m238-11 26 11" fill="none" stroke="#b67f3b" stroke-width="1.2"/>
+      <g stroke="#786450" stroke-width="1.6">
+        <path d="m592 321-10-129 10-2 17 131Z" fill="#cd9465"/><path d="m582 192-3-38 6-24 9 26-2 34Z" fill="#5d7d75"/>
+        <path d="m617 320 1-123 10 1-1 123Z" fill="#c99c73"/><path d="m618 197-8-33 12-37 14 35-8 36Z" fill="#628fa1"/>
+        <path d="m634 323 19-109 8 2-15 112Z" fill="#dbab73"/><path d="m653 214 2-23 14-27 1 30-9 22Z" fill="#cf7c40"/>
+        <path d="M581 282q32-12 67 0l-5 83q-28 14-57-1Z" fill="#dcb454"/><path d="M581 282q30 16 67 0m-56 19 2 54" fill="none" stroke="#b98b41"/>
+      </g>
+      <path d="m89 374 64-24 53 23 58-15 65 24 70-6 75 17 68-11 92 9 29 19H60Z" fill="#dfc5a1"/>
+      <use href="#pine" x="193" y="274" width="65" height="116"/>
+      <use href="#pine" x="57" y="297" width="59" height="99"/>
+      <use href="#pine" x="594" y="312" width="46" height="88"/>
+      <path d="m270 384 5-15 7 13 16-1-12 10 5 15-15-8-13 9 3-16-11-8Z" fill="#d8865d"/>
+      <path d="m334 385 5-15 8 13 15-1-12 10 5 15-15-8-14 8 4-16-11-8Z" fill="#e0b252"/>
+      <path d="m391 390 4-16 9 13 14-1-11 11 4 13-14-7-13 8 3-16-11-9Z" fill="#7e9ca3"/>
+      <path d="m467 393 4-16 9 13 14-1-11 10 4 14-14-7-13 8 3-16-11-8Z" fill="#cc9290"/>
+      <path d="m94 360 20-97 17-44m-18 57-19-8m14 27 22-12m-28 34-19-11m18 34 22-13" fill="none" stroke="#7b9270" stroke-width="5"/>
+      <path d="M169 156 271 51l80 109v181H170Zm181-22 81-114 84 115v199H350Z" fill="url(#paper-grain)"/>
+    </g>
+  </symbol>
+  <symbol id="build" viewBox="0 0 160 140"><path d="m7 73 45-59 44 57v55H10Z" fill="#d2b287" stroke="#796754" stroke-width="2" stroke-linejoin="round"/><path d="m51 14 2 111m-46-52 89-2M23 76h16v20H23Zm37-5h15v20H60Z" fill="none" stroke="#796754" stroke-width="2"/><path d="m75 123 35-73 43 75Z" fill="#dba36b" stroke="#796754" stroke-width="2"/><path d="m110 50 8 75m-20 0 12-32 16 32" fill="#cbd3bf" stroke="#796754" stroke-width="2"/></symbol>
+  <symbol id="trees" viewBox="0 0 160 140"><use href="#pine" x="3" y="4" width="78" height="131"/><use href="#pine" x="64" y="30" width="60" height="106"/><use href="#pine" x="107" y="55" width="43" height="78"/></symbol>
+  <symbol id="dice" viewBox="0 0 160 140"><g stroke="#66584e" stroke-width="2" stroke-linejoin="round"><path d="m16 41 47-23 47 29-9 66-45 19-43-30Z" fill="#e4c2b0"/><path d="m16 41 44 29 50-23M60 70l-4 62" fill="none"/><path d="m104 51 31-11 19 23-11 40-30 10-13-22Z" fill="#eee0c8"/><path d="m104 51 18 25 32-13m-32 13-9 37" fill="none"/></g><g fill="#66584e"><ellipse cx="60" cy="43" rx="4" ry="3"/><ellipse cx="29" cy="64" rx="3" ry="5"/><ellipse cx="43" cy="100" rx="3" ry="5"/><ellipse cx="77" cy="79" rx="3" ry="5"/><ellipse cx="94" cy="68" rx="3" ry="5"/><ellipse cx="74" cy="109" rx="3" ry="5"/><ellipse cx="91" cy="98" rx="3" ry="5"/><circle cx="128" cy="58" r="3"/><circle cx="135" cy="81" r="3"/><circle cx="130" cy="96" r="3"/></g></symbol>
+  <symbol id="food" viewBox="0 0 90 100"><g fill="none" stroke="#4c5145" stroke-width="2.4" stroke-linecap="round"><path d="M22 8v25q0 11 10 11V91M32 8v27M42 8v25q0 11-10 11M67 8c-17 2-17 37-2 40l-2 43m4-83v83"/></g></symbol>
+  <symbol id="group" viewBox="0 0 100 90"><g fill="none" stroke="#4c5145" stroke-width="2.5" stroke-linecap="round"><circle cx="39" cy="27" r="11"/><path d="M14 78V65c0-24 49-24 49 0v13M67 14c18-2 20 24 2 25m0 10c17 2 22 12 21 28"/></g></symbol>
+  <symbol id="calendar" viewBox="0 0 100 100"><g fill="none" stroke="#4c5145" stroke-width="2.5" stroke-linejoin="round"><path d="M16 24h67v61H16Zm0 18h67M30 13v23m38-23v23"/><path d="M30 54h5m14 0h5m13 0h5M30 68h5m14 0h5m13 0h5" stroke-width="4"/></g></symbol>
+</svg>
