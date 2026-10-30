@@ -31,6 +31,8 @@
 .summer-town { width:100%; height:auto; aspect-ratio:680/420; }
 .summer-photo { position:relative; display:flex; flex-direction:column; align-items:center; justify-content:center; width:100%; aspect-ratio:4/3; border:10px solid var(--cream); background:#e2d8c9; box-shadow:0 3px 10px #4b40361b; }
 .summer-photo > svg { width:42%; aspect-ratio:220/150; height:auto; color:#938b7e; }
+.summer-photo-real { display:block; aspect-ratio:auto; }
+.summer-photo-real > img { display:block; width:100%; height:auto; }
 .summer-photo figcaption { max-width:30ch; margin-top:16px; padding-inline:12px; font-size:16px; line-height:1.5; text-align:center; color:var(--muted); }
 .summer-hero-photo { width:min(100%,440px); margin:16px auto 0; }
 .summer-photo-tape { position:absolute; top:-20px; left:20%; width:110px; height:32px; background:#ddcda9c9; clip-path:polygon(0 4%,100% 0,98% 100%,2% 94%); transform:rotate(-6deg); }
