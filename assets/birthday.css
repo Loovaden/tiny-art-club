@@ -64,9 +64,14 @@
 .party-story-copy { min-width:0; }
 .party-story h3 { font-size:clamp(2rem,3vw,2.5rem); line-height:1.15; letter-spacing:-.035em; }
 .party-story-copy > p { max-width:62ch; margin-top:20px; font-size:18px; line-height:1.6; }
+.party-story-program { max-width:62ch; margin:8px 0 0; padding-left:24px; font-size:18px; line-height:1.6; }
+.party-story-program li + li { margin-top:8px; }
+.party-story-gravity .party-story-photo { align-self:start; }
 .party-story-photo { position:relative; display:flex; flex-direction:column; align-items:center; justify-content:center; width:100%; aspect-ratio:4/3; border:10px solid var(--cream); background:#e2d8c9; color:#938b7e; box-shadow:0 2px 8px #4b40361b; }
 .party-story-photo > svg { width:40%; height:auto; aspect-ratio:220/150; }
 .party-story-photo > img { width:100%; height:100%; object-fit:contain; }
+.party-photo-filled { aspect-ratio:auto; }
+.party-photo-filled > img { display:block; width:100%; height:auto; object-fit:contain; }
 .party-story-photo figcaption { margin-top:12px; color:var(--muted); font-size:1rem; line-height:1.4; }
 .party-story-art { position:relative; width:136px; height:144px; margin:24px 8px 0; }
 .party-story-art > svg:first-child { width:100%; height:100%; }

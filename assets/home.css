@@ -78,8 +78,8 @@
 .ref-gallery-note svg { position:absolute; right:2%; bottom:1%; width:43px; height:43px; color:#bb8c5a; }
 
 .ref-birthday { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); align-items:stretch; margin-bottom:24px; }
-.ref-birthday-photo { position:relative; min-height:360px; overflow:hidden; }
-.ref-birthday-photo img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:left top; }
+.ref-birthday-photo { position:relative; min-height:0; aspect-ratio:1280/854; align-self:start; overflow:hidden; }
+.ref-birthday-photo img { display:block; width:100%; height:auto; }
 .ref-birthday-paper { position:relative; display:flex; flex-direction:column; align-items:start; justify-content:center; padding:32px; background:#dea9a2; }
 .ref-birthday h2 { font-size:clamp(2.25rem,3.3vw,3.65rem); }
 .ref-birthday p { max-width:430px; margin:16px 0 24px; font-size:.9rem; }
@@ -145,7 +145,7 @@
   .ref-gallery-note { grid-column:2; min-height:0; padding:8px; font-size:1.25rem!important; }
   .ref-gallery-note svg { width:32px; height:32px; }
   .ref-birthday { grid-template-columns:minmax(0,1fr); }
-  .ref-birthday-photo { aspect-ratio:4/3; min-height:0; }
+  .ref-birthday-photo { aspect-ratio:1280/854; min-height:0; }
   .ref-birthday-paper { min-height:280px; padding-bottom:80px; }
   .ref-summer { grid-template-columns:minmax(0,1fr); }
   .ref-summer-paper { min-height:280px; }
