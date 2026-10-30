@@ -49,18 +49,28 @@
     </section>
 
     <section id="schedule" class="ref-schedule wrap" aria-labelledby="schedule-title">
-      <div class="ref-schedule-head"><h2 id="schedule-title">Расписание занятий</h2><p>Мини-группы до 8 детей</p></div>
+      <div class="ref-schedule-head"><h2 id="schedule-title">Расписание занятий</h2></div>
       <div class="ref-schedule-grid">
-        <article class="ref-day day-tuesday"><h3>Вторник</h3><div class="ref-paper-box"><p><time>16:00–17:30</time><span>рисование</span></p><p><time>17:30–19:00</time><span>рисование</span></p></div></article>
-        <article class="ref-day day-wednesday"><h3>Среда</h3><div class="ref-paper-box"><p><time>16:00–17:30</time><span>рисование</span></p><p><time>17:30–19:00</time><span>рисование</span></p></div></article>
-        <article class="ref-day day-thursday"><h3>Четверг</h3><div class="ref-paper-box"><p><time>16:00–17:30</time><span>рисование</span></p><p><time>17:30–19:00</time><span>рисование</span></p></div></article>
-        <article class="ref-day day-friday"><h3>Пятница</h3><div class="ref-paper-box"><p><time>17:30–19:00</time><span>архитектурные проекты<br>из бумаги и картона</span><small>примерно 8–10 лет</small></p></div></article>
-        <article class="ref-day ref-saturday"><h3>Суббота</h3><div class="ref-paper-box ref-saturday-box"><p><time>10:00–11:30</time><span>объёмное моделирование из бумаги</span><small>примерно 7–8 лет</small></p><p><time>12:00–13:30</time><span>рисование</span><small>примерно 6–8 лет</small></p><p><time>14:00–15:30</time><span>рисование</span></p></div></article>
-        <article class="ref-day ref-craft-day"><h3 aria-hidden="true">&nbsp;</h3><div class="ref-paper-box"><p><time>16:00–17:00</time><span>мастерилки 4+</span></p></div></article>
+        <article class="ref-day day-tuesday"><h3>Вторник</h3><div class="ref-paper-box ref-weekday-paper"><h4 class="ref-session-title">Рисование</h4><p class="ref-session-times"><span class="ref-time-range"><time datetime="16:00">16:00</time>–<time datetime="17:30">17:30</time></span><span class="ref-time-range"><time datetime="17:30">17:30</time>–<time datetime="19:00">19:00</time></span></p></div></article>
+        <article class="ref-day day-wednesday"><h3>Среда</h3><div class="ref-paper-box ref-weekday-paper"><h4 class="ref-session-title">Рисование</h4><p class="ref-session-times"><span class="ref-time-range"><time datetime="16:00">16:00</time>–<time datetime="17:30">17:30</time></span><span class="ref-time-range"><time datetime="17:30">17:30</time>–<time datetime="19:00">19:00</time></span></p></div></article>
+        <article class="ref-day day-thursday"><h3>Четверг</h3><div class="ref-paper-box ref-weekday-paper"><h4 class="ref-session-title">Рисование</h4><p class="ref-session-times"><span class="ref-time-range"><time datetime="16:00">16:00</time>–<time datetime="17:30">17:30</time></span><span class="ref-time-range"><time datetime="17:30">17:30</time>–<time datetime="19:00">19:00</time></span></p></div></article>
+        <article class="ref-day day-friday"><h3>Пятница</h3><div class="ref-paper-box ref-weekday-paper"><h4 class="ref-session-title">Архитектурные проекты из бумаги и картона</h4><p class="ref-session-times"><span class="ref-time-range"><time datetime="17:30">17:30</time>–<time datetime="19:00">19:00</time></span></p><p class="ref-session-age">Примерно 8–10 лет</p></div></article>
       </div>
-      <p class="ref-schedule-prices">10 € / час · 15 € / 1,5 часа · по субботам 13 € / занятие <span>Возраст в субботних группах указан ориентировочно.</span></p>
+      <div class="ref-saturday" role="group" aria-labelledby="saturday-title">
+        <h3 id="saturday-title">Суббота</h3>
+        <div class="ref-saturday-row">
+          <article class="ref-paper-box ref-saturday-card"><p class="ref-session-times"><span class="ref-time-range"><time datetime="10:00">10:00</time>–<time datetime="11:30">11:30</time></span></p><h4 class="ref-session-title">Объёмное моделирование из бумаги</h4><p class="ref-session-age">Примерно 7–8 лет</p></article>
+          <article class="ref-paper-box ref-saturday-card"><p class="ref-session-times"><span class="ref-time-range"><time datetime="12:00">12:00</time>–<time datetime="13:30">13:30</time></span></p><h4 class="ref-session-title">Рисование</h4><p class="ref-session-age">Примерно 6–8 лет</p></article>
+          <article class="ref-paper-box ref-saturday-card"><p class="ref-session-times"><span class="ref-time-range"><time datetime="14:00">14:00</time>–<time datetime="15:30">15:30</time></span></p><h4 class="ref-session-title">Рисование</h4></article>
+          <article class="ref-paper-box ref-saturday-card"><p class="ref-session-times"><span class="ref-time-range"><time datetime="16:00">16:00</time>–<time datetime="17:00">17:00</time></span></p><h4 class="ref-session-title">Мастерилки</h4><p class="ref-session-age">4+</p></article>
+        </div>
+        <svg class="ref-schedule-crosses" aria-hidden="true"><use href="assets/icons.svg#crosses"></use></svg>
+      </div>
+      <div class="ref-schedule-rates">
+        <article class="ref-rate ref-rate-mini" aria-labelledby="mini-rate-title"><h3 id="mini-rate-title">Мини-группы</h3><p class="ref-rate-prices"><span><strong>10 €</strong> / час</span><span><strong>15 €</strong> / 1,5 часа</span></p><p class="ref-rate-note">До 8 детей. Подходят для разных возрастов.</p></article>
+        <article class="ref-rate ref-rate-saturday" aria-labelledby="saturday-rate-title"><h3 id="saturday-rate-title">Субботние занятия</h3><p class="ref-rate-prices"><span><strong>13 €</strong> / занятие</span></p><p class="ref-rate-note">Возраст указан ориентировочно, исходя из состава действующих групп.</p></article>
+      </div>
       <svg class="ref-schedule-arrow" aria-hidden="true"><use href="assets/icons.svg#arrow-curve"></use></svg>
-      <svg class="ref-schedule-crosses" aria-hidden="true"><use href="assets/icons.svg#crosses"></use></svg>
     </section>
 
     <section class="ref-gallery wrap" aria-label="Иллюстрации творческих занятий">
